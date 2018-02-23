@@ -112,7 +112,7 @@
                 }));
             }
             var oData;
-            eval('oData = {' + objectDeclaratoin + '};');
+            eval("oData = {" + objectDeclaratoin + "};");
 
             oProductDetailsDialog.addContent(oProductDetailsList);
             oProductDetailsDialog.open();
@@ -141,7 +141,7 @@
                 addComma = true;
             }
             var oData;
-            eval('oData = {' + objectDeclaratoin + '};');
+            eval("oData = {" + objectDeclaratoin + "};");
 
 
             oModel.update("/ProductSet('" + selectedId + "')", oData, {
