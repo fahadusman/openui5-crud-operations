@@ -39,7 +39,7 @@
                 addComma = true;
             }
             var oData;
-            eval('oData = {' + objectDeclaratoin + '};');
+            eval("oData = {" + objectDeclaratoin + "};");
 
             oModel.update("/ProductSet('" + selectedId + "')", oData, {
                 merge: true,
